@@ -18,11 +18,13 @@ header {
   background: white;
   border-bottom: 2px solid #cccccc;
 }
+
 .heading {
   margin: 0 auto;
   background: white;
   height: 100%;
   width: 999px;
+  color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -41,6 +43,7 @@ header {
   padding-top: 25px;
   margin-left: 5px;
 }
+
 a {
   text-decoration: none;
   color: #777777;
@@ -62,9 +65,37 @@ img {
   margin: 0 15px 15px 0;
 }
 
+label {
+  margin-bottom: 20px;
+}
+
 h2 {
   margin-top: 0;
   color: #4aaaa5;
+}
+
+label {
+  color: #777777;
+}
+
+textarea {
+  margin-bottom: 15px;
+  margin-top: 2px;
+}
+
+button {
+  margin: 20px 0;
+  background: #4aaaa5;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 2px;
 }
 
 footer {
@@ -72,8 +103,10 @@ footer {
   height: 50px;
   background: #666666;
   margin: 0 auto;
-
+  color: white;
   border-top: 8px solid #4aaaa5;
   text-align: center;
   padding-top: 50px;
+  position: fixed;
+  bottom: 0;
 }

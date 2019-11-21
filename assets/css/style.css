@@ -3,12 +3,35 @@ html {
   position: relative;
 }
 
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  align-items: center;
+}
+
+img {
+  height: 150px;
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Arial", Arial, Helvetica, sans-serif;
-  background-image: url("criss-cross.png");
+  background-image: url(https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-color: rgba(255, 255, 255, 0.9);
+  background-blend-mode: lighten;
+}
+
+.card {
+  width: 20%;
+  border: 1px solid lightslategray;
+  padding: 4px;
+  float: left;
+  margin: 5px 15px;
 }
 
 header {
@@ -100,13 +123,13 @@ input {
 
 footer {
   width: 100%;
-  height: 50px;
+  height: 30px;
   background: #666666;
   margin: 0 auto;
   color: white;
   border-top: 8px solid #4aaaa5;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 10px;
   position: fixed;
   bottom: 0;
 }
